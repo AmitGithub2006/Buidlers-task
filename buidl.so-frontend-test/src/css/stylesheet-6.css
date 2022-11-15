@@ -1,0 +1,493 @@
+/* ======================================== Universal CSS starts here ================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+/* ======================================== Universal CSS ends here ================================ */
+
+/* ===================================== Header starts here ============================= */
+
+.dialog-off-canvas-main-canvas .navbar {
+    min-height: fit-content;
+    margin-bottom: 0;
+}
+
+
+.dialog-off-canvas-main-canvas .navbar .region-navigation img {
+    height: 20px;
+}
+
+.head-links .head-links-list {
+    display: flex;
+    margin: 10px 0;
+}
+
+.head-links .head-links-list li {
+    list-style: none;
+    font-size: 4px;
+    margin: 0 1px;
+}
+
+.js-quickedit-main-content .col-sm-12 span {
+    font-size: 12px;
+}
+
+/* =================================== Header ends here ================================= */
+
+/* ======================================= About Section starts here ================================== */
+
+.about-coindcx {
+    width: 95%;
+    margin-bottom: 50px;
+}
+
+.about-coindcx h1 {
+    font-size: 12px;
+}
+
+.about-coindcx h1 span {
+    display: block;
+    font-size: 20px !important;
+    margin-top: 5px;
+}
+
+.about-coindcx p {
+    font-size: 8px;
+}
+
+.about-coindcx .about-date {
+    margin-left: 20px;
+}
+
+.about-coindcx .about-btn {
+    padding: 2px 30px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    background-color: #4e8de6;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ======================================= About Section ends here ================================== */
+
+/* ============================== Funding & Mentorship Section starts here ============================ */
+
+.block-views-blockprograms-block-7, .block-views-blockprograms-block-8 {
+    width: 49%;
+    display: inline-block;
+}
+
+.block-views-blockprograms-block-7 {
+    border-right: 1px solid black;
+}
+
+.block-views-blockprograms-block-7 .box-green, .block-views-blockprograms-block-8 .box-green {
+    background-color: white;
+}
+
+.block-views-blockprograms-block-7 .box-green .big-txt, .block-views-blockprograms-block-8 .box-green .big-txt {
+    color: grey;
+    font-size: 8px;
+    line-height: normal;
+    text-align: center;
+}
+
+.block-views-blockprograms-block-7 .box-green .big-txt span, .block-views-blockprograms-block-8 .box-green .big-txt span {
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.block-views-blockprograms-block-7 .box-green .big-txt img {
+    height: 70px;
+    width: 70px;
+}
+
+/* ============================== Funding & Mentorship Section ends here ============================ */
+
+
+/* =============================== Mentoring Sessions Section starts here ============================= */
+
+.block-views-blockprograms-block-9 .block-title {
+    text-align: center;
+    color: grey !important;
+    font-weight: bold;
+    font-size: 10px !important;
+}
+
+.parent-container-flex .view-content .program-view-mentor-profile {
+    border-radius: 5%;
+    aspect-ratio: 1;
+    width: 68px;
+    /* min-width: 50px; */
+}
+
+.parent-container-flex .view-content h4 {
+    font-size: 8px;
+    font-weight: bold;
+}
+
+/* =============================== Mentoring Sessions Section ends here ============================= */
+
+/* ======================== Frequently Asked Questions Section starts here ========================== */
+
+.block-views-blockprograms-block-6 {
+    width: 80%;
+}
+
+.block-views-blockprograms-block-6 .block-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.block-views-blockprograms-block-6 .view-content div {
+    font-size: 7px;
+}
+
+/* ======================== Frequently Asked Questions Section ends here ========================== */
+
+/* ====================================== Apply Now Button starts here ============================ */
+
+.view-content .program-location {
+    text-transform: capitalize;
+    background-color: #4e8de6;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 0.5rem;
+}
+
+/* ====================================== Apply Now Button ends here ============================ */
+
+/* ========================================== Footer starts here ================================ */
+
+.footer .navbar-btn img {
+    height: 20px;
+    width: 40px;
+}
+/* ========================================== Footer ends here ================================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== Tablet Responsiveness starts here ========================= */
+
+@media screen and (min-width: 720px) {
+    .layout--twocol-section.layout--twocol-section--75-25 > .layout__region--first {
+    flex: auto;
+}
+
+
+/* ===================================== Header starts here ============================= */
+
+.dialog-off-canvas-main-canvas .navbar .region-navigation img {
+    height: 30px;
+    margin: 15px 0;
+}
+
+.head-links .head-links-list li {
+    font-size: 10px;
+    width: 120px;
+    margin: 15px 0;
+}
+
+.js-quickedit-main-content .col-sm-12 span {
+    font-size: 18px;
+}
+
+/* ===================================== Header ends here ============================= */
+
+/* ======================================= About Section starts here ================================== */
+
+.about-coindcx h1 {
+    font-size: 18px;
+}
+
+.about-coindcx h1 span {
+    font-size: 30px !important;
+}
+
+.about-coindcx p {
+    font-size: 12px;
+}
+
+.about-coindcx .about-btn {
+    padding: 3px 35px;
+    font-size: 15px;
+}
+
+/* ======================================= About Section ends here ================================== */
+
+/* ============================== Funding & Mentorship Section starts here ============================ */
+
+.block-views-blockprograms-block-7 .box-green .big-txt, .block-views-blockprograms-block-8 .box-green .big-txt {
+    font-size: 15px;
+}
+
+.block-views-blockprograms-block-7 .box-green .big-txt span, .block-views-blockprograms-block-8 .box-green .big-txt span {
+    font-size: 3rem;
+}
+
+.block-views-blockprograms-block-7 .box-green .big-txt img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.block-views-blockprograms-block-8 {
+    position: relative;
+    top: 40px;
+}
+
+/* ============================== Funding & Mentorship Section ends here ============================ */
+
+/* =============================== Mentoring Sessions Section starts here ============================= */
+
+.block-views-blockprograms-block-9 {
+    margin-top: 35px;
+}
+
+.block-views-blockprograms-block-9 .block-title {
+    font-size: 20px !important;
+}
+
+.views-element-container {
+    display: flex;
+    justify-content: center;
+}
+
+.parent-container-flex .view-content .program-view-mentor-profile {
+    width: 174px;
+}
+
+.parent-container-flex .view-content h4 {
+    font-size: 15px;
+}
+
+/* =============================== Mentoring Sessions Section ends here ============================= */
+
+/* ======================== Frequently Asked Questions Section starts here ========================== */
+
+.block-views-blockprograms-block-6 .block-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.block-views-blockprograms-block-6 .view-content div {
+    font-size: 12px;
+}
+
+/* ======================== Frequently Asked Questions Section ends here ========================== */
+
+
+/* ====================================== Apply Now Button starts here ============================ */
+
+.view-content .program-location {
+    padding: 8px 45px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+/* ====================================== Apply Now Button ends here ============================ */
+
+/* ========================================== Footer starts here ================================ */
+
+.footer .navbar-btn img {
+    height: 45px;
+    width: 90px;
+}
+/* ========================================== Footer ends here ================================ */
+}
+/* ======================================= Tablet Responsiveness ends here ========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== Desktop Responsiveness starts here ========================= */
+
+@media screen and (min-width: 1024px) {
+    .layout--twocol-section.layout--twocol-section--75-25 > .layout__region--first {
+    flex: auto;
+}
+
+/* ===================================== Header starts here ============================= */
+
+.dialog-off-canvas-main-canvas .navbar .region-navigation img {
+    height: 50px;
+}
+
+.head-links .head-links-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-links .head-links-list li {
+    font-size: 15px;
+    width: 150px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.js-quickedit-main-content .col-sm-12 span {
+    font-size: 24px;
+}
+
+/* ===================================== Header ends here ============================= */
+
+/* ======================================= About Section starts here ================================== */
+
+.about-coindcx h1 {
+    font-size: 24px;
+}
+
+.about-coindcx h1 span {
+    font-size: 40px !important;
+    margin-top: 10px;
+}
+
+.about-coindcx p {
+    font-size: 16px;
+}
+
+.about-coindcx .about-btn {
+    padding: 5px 50px;
+    font-size: 20px;
+}
+
+/* ======================================= About Section ends here ================================== */
+
+/* ============================== Funding & Mentorship Section starts here ============================ */
+
+.block-views-blockprograms-block-7 .box-green .big-txt, .block-views-blockprograms-block-8 .box-green .big-txt {
+    font-size: 20px;
+}
+
+.block-views-blockprograms-block-7 .box-green .big-txt span, .block-views-blockprograms-block-8 .box-green .big-txt span {
+    font-size: 5rem;
+    margin: 20px 0;
+}
+
+.block-views-blockprograms-block-7 .box-green .big-txt img {
+    height: 140px;
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ============================== Funding & Mentorship Section ends here ============================ */
+
+/* =============================== Mentoring Sessions Section starts here ============================= */
+
+.block-views-blockprograms-block-9 {
+    margin-top: 50px;
+}
+
+.block-views-blockprograms-block-9 .block-title {
+    font-size: 30px !important;
+}
+
+.views-element-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.parent-container-flex .view-content .program-view-mentor-profile {
+    width: 200px;
+}
+
+.parent-container-flex .view-content h4 {
+    font-size: 20px;
+}
+
+/* =============================== Mentoring Sessions Section ends here ============================= */
+
+/* ======================== Frequently Asked Questions Section starts here ========================== */
+
+.block-views-blockprograms-block-6 .block-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.block-views-blockprograms-block-6 .view-content div {
+    font-size: 16px;
+}
+
+/* ======================== Frequently Asked Questions Section ends here ========================== */
+
+
+/* ====================================== Apply Now Button starts here ============================ */
+
+.view-content .program-location {
+    padding: 10px 60px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+/* ====================================== Apply Now Button ends here ============================ */
+
+/* ========================================== Footer starts here ================================ */
+
+.footer .navbar-btn img {
+    height: 60px;
+    width: 120px;
+}
+/* ========================================== Footer ends here ================================ */
+}
+/* ======================================= Desktop Responsiveness ends here ========================= */
