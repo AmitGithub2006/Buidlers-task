@@ -130,8 +130,8 @@ body {
 .parent-container-flex .view-content .program-view-mentor-profile {
     border-radius: 5%;
     aspect-ratio: 1;
-    width: 68px;
-    /* min-width: 50px; */
+    width: 57px;
+    min-width: 50px;
 }
 
 .parent-container-flex .view-content h4 {
@@ -180,14 +180,6 @@ body {
     width: 40px;
 }
 /* ========================================== Footer ends here ================================ */
-
-
-
-
-
-
-
-
 
 
 
@@ -337,27 +329,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ================================== Desktop Responsiveness starts here ========================= */
 
 @media screen and (min-width: 1024px) {
@@ -381,6 +352,7 @@ body {
     width: 150px;
     margin: 30px 0;
     font-weight: bold;
+    color: rgb(58, 40, 40);
 }
 
 .js-quickedit-main-content .col-sm-12 span {
